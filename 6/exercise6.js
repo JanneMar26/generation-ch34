@@ -1,0 +1,19 @@
+
+///Bubble
+
+    var lista = [3, 6, 12, 5, 100, 1]; //Defines un arreglo que se debe ordenar
+    var i, n, j, aux;  //Se declaran las variables 
+      n = lista.length; // n almacenara la lonjitud de la lista
+    
+    for (j = 0; j < n; j++){ //Se inicializa un ciclo for  que inica en 0, aumenta cada iteración y se detiene al llegar a la longitud del arreglo
+      for(i = 0; i<(n-j); i++){
+        if (lista[i] > lista[i + 1]){ //un bloque interno que compara el acomodo de los elementos y su orden
+          aux = lista[i] // aux se utilizara para intercambiar
+          lista[i] = lista[i + 1];
+          lista[i+1] = aux;
+          
+        }
+      }
+    } 
+    console.log(lista);
+  
