@@ -1,0 +1,178 @@
+<!DOCTYPE html> <!--Indica el tipo de documento-->
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <!--Indica al navegador el tipo de codificación que se debe utilizar para representar la info correcta-->
+    <meta name="description" content="En este sitio web encontraras las mejores ofertas"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Util para que sea adaptable, hace que el ancho del contenido sea -->
+    <meta name="robots" content="index, follow"> <!-- Indican para que se pueda rastrear nuestra pagina web -->
+    <title>Mi primer HTML </title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/mariposa.png"> <!--Hacer el icono visible en mi pesaña-->
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    
+<!--CSS Externo-->
+
+    <style>
+        p, dt {
+            color: #9A89B4;
+        }
+    </style>
+    <!--CSS interno o embebido deben estar dentro de head-->
+</head>
+
+<body>
+    <h1>Sobre mí: 
+        Janett Venegas</h1> <!--Ecabezados  h1 al h6 -->
+
+    <img id="personal-photo"
+    src=".\assets\img\1.jpg" alt="Foto de Jann en una iglesia subterránea "
+    title="Foto de Jann" width="200px" height="300px">
+
+    <!--Estilo en línea -->
+        <p style="color: rgb(128, 172, 172); text-align: center";> Tengo 28 años y vivo en Xochimilco, CDMX.
+    
+        Estudie Biología, siento mucho respeto y admiración por los suelos, la flora, la fauna silvestre y no tan silvestre.
+        </p>
+
+        <p>
+            Mi mayor logro académico es poder concluir una carrera universitaria y obtener una beca internacional, por mi alto rendimiento académico, para realizar un intercambio estudiantil.
+        </p>
+        <h2>
+        <p style="color: rgb(60, 59, 59);">Mi top 5 de canciones favoritas del momento son:
+        <!--Tenemos 3  tipos de listas: ordenadas, desordenadas de descripción-->
+    </p></h2>
+    <ol><!--Anidamiento--> 
+
+        <li> <a href=" https://www.youtube.com/watch?v=J4npeAiOluQ "> <i>Downtown</i></a>  de Godford</li>
+        <li> <a href="https://www.youtube.com/watch?v=b1kbLwvqugk"> Anti-Hero </a>  de Taylor Swift</li>
+        <li> <a href="https://www.youtube.com/watch?v=aqW4xXUgmno"> Run </a> BTS</li>
+        <li> <a href="https://www.youtube.com/watch?v=38k5zr1e0HI"> Magic Shop </a> de BTS</li>
+        <li> <a href="https://www.youtube.com/watch?v=dISNgvVpWlo"> Whistle</a> Whistle Blackpink</li>
+    </ol>
+
+    <p> Definición de términos y etiquetas de html: </p>
+    <dl><!--Lista descriptiva-->
+        <dt> función </dt>
+        <dd>Conjunto de instrucciones que llevan a cabo una tarea especifica.</dd>
+        <dt> let </dt>
+        <dd>Declara una variable de alcance local con ámbito de bloque</dd>
+        <dt> const </dt>
+        <dd>Declara variables y mantienen sus valores constantes </dd>
+        <dt> dl </dt>
+        <dd>Representa una lista descritiva</dd>
+        <dt> dt </dt>
+        <dd>Grupos de término, especificados con el uso del elemento dt</dd>
+        <dt> dd </dt>
+        <dd>Grupo descriptivo proveídas con elementos dd</dd>
+        
+
+    </dl>
+
+    <p>Los reinos de los seres vivos son: </p>
+    <ol>
+        <li>Fungi </li>
+        <ul>
+            <li>Ascomicetos </li>
+            <ul>
+                <li>Moho (<i>Neurospora sp.</i>). </li>
+                <li>Levadura de cerveza (<i>Saccharomyces cerevisiae</i>).</li>
+                <li>Cornezuelo <i>(Claviceps purpurea</i>).</li>
+            </ul>
+            <li>Basidiomicetos</li>
+            <ul>
+                <li>Champiñón silvestre (<i>Agaricus campestris</i>)</li>
+            </ul>
+        </ul>
+        <li>Vegetal </li>
+        <ul>
+            <li>Gimnospermas  </li>
+            <ul>
+                <li>Pináceas</li>
+
+            </ul>
+            <li>Angioespermas</li>
+            <ul>
+                <li>El maíz (<i>Zea mays</i>)</li>
+                <li>El café (género Coffea)</li>
+            </ul>
+            <li>Helechos</li>
+            <li>Musgos</li>
+        </ul>
+        <li>Animal</li>
+        <ul>
+            <li>Poríferos</li>
+            <ul>
+                <li>Esponjas de mar</li>
+            </ul>
+            <li>Cnidarios</li>
+            <ul>
+                <li>Medusas</li>
+                <li>Corales</li>
+                <li>Anémonas</li>
+            </ul>
+            <li>Platelmitos</li>
+            <ul>
+                <li>Gusanos planos</li>
+            </ul>
+            <li>Moluscos </li>
+            <ul>
+                <li>Gastroerópodos
+                    <ul><li>Caracoles</li>
+                    <li>Babosas</li>
+                </ul>
+                </li>
+                <li>Cefalópodos
+                    <ul>
+                        <li>Pulpos</li>
+                        <li>Calamares</li>
+                    </ul>
+                </li>
+                <li>Bivalvos
+                    <ul>
+                        <li>Almejas</li>
+                        <li>Mejillones</li>
+                        <li>Ostras</li>
+                    </ul>
+                </li>
+            </ul>
+            <li>Anélidos</li>
+            <li>Equinodermos</li>
+            <li>Insectos </li>
+            <li>Crustáceos </li>
+            <li>Arácnidos </li>
+            <li>Anfibios </li>
+            <li>Reptiles </li>
+            <li>Mamíferos </li>
+        </ul>
+        <li> Protoctista</li>
+        <ul>
+            <li>Algas verdes</li>
+            <li>Algas pardas</li>
+            <li>Algas rojas</li>
+            <li>Protozoos </li>
+        </ul>
+        <li> Monera </li>
+        <ul>
+            <li>Arqueobacterias</li>
+            <li>Eubacterias</li>
+
+        </ul>
+    </ol>
+
+
+
+    <p>Te dejo la foto de un gatito</p>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Gatito color naranja volteado a ver la cámara">
+
+</body>
+
+</html>
