@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Este es un comentario en CSS*/
 
 /*El asterisco es un selector universal. Selecciona TODOS los elementos*/
@@ -35,4 +36,43 @@ p{
 p{
     color: darkolivegreen;
 }
+=======
+/*Este es un comentario en CSS*/
+
+/*El asterisco es un selector universal. Selecciona TODOS los elementos*/
+*{
+    background-color: #D5CABD;
+}
+
+/*Selector de tipo o de etiqueta
+Selecciona todos los elementos con ese nombre*/
+
+h1, h2, h3{
+    font-family: 'Dosis', sans-serif;
+}
+li, ul{
+    font-family: 'Dosis', sans-serif;
+}
+dd, p {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+/*Selector de id. Permite seleccionar un elemnto con id especifico, No se comparte con otros elementos*/
+#personal-photo{
+    width: 200;
+    height: 300;
+}
+/*body {
+     background-color: cornflowerblue;
+}
+
+p{
+    color: darkslateblue;
+}
+
+p{
+    color: darkolivegreen;
+}
+>>>>>>> 95534ae43597bf987dd9c68b93461b24e16aa816
 */
